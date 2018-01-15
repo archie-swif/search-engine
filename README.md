@@ -6,9 +6,9 @@ Reverse index document search with simple ranking*
 
 1. Put documents into the search engine by key.
 2. Get document by key.
-3. Search on a string of tokens to return keys of all documents that contain **all** tokens in the set.
+3. Search by a string of tokens and return keys of all documents that contain __all__ tokens in the set.
 4. \*Search results **ranking** is done based on word frequency in documents.
-5. Clean up data for test purposes
+5. \*Clean up data for test purposes
 
 
 ## Installation and running
