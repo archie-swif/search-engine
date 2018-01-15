@@ -12,6 +12,10 @@ Reverse index document search with simple ranking*
 
 ## Installation and running
 
+You can try it out on AWS Elastic Beanstalk http://ryabokon-search-engine.us-west-2.elasticbeanstalk.com/
+
+---
+
 Runnable jar can be downloaded from the [release page](https://github.com/archie-swif/search-engine/releases)
 
 And launched from the command-line
