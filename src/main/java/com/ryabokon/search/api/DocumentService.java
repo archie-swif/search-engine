@@ -44,6 +44,10 @@ public class DocumentService {
 
     }
 
+    public void cleanUp() {
+        storage.cleanUp();
+    }
+
     private List<DocumentItem> mapToSearchResults(List<DocumentInfo> docs) {
         return docs.stream()
                 .map(doc ->

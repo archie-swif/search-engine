@@ -46,4 +46,9 @@ public class ImMemoryStorage implements Storage {
         index.put(word, docs);
     }
 
+    @Override
+    public void cleanUp() {
+        index.clear();
+        documents.clear();
+    }
 }

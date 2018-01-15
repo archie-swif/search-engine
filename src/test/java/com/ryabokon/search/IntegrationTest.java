@@ -88,6 +88,23 @@ public class IntegrationTest {
                 .body("[0].documentName", is(key))
                 .body("[0].content", is(content))
                 .body("[0].rank", is(1));
+
+        //---------------Cleanup-------------------
+
+        with()
+                .contentType("application/json")
+                .delete(SEARCH_DOCUMENT_URL)
+                .then()
+                .statusCode(200);
+
+        //---------------Not found-------------------
+
+        with()
+                .contentType("application/json")
+                .pathParam(GET_DOCUMENT_PARAM, key)
+                .get(GET_DOCUMENT_URL)
+                .then()
+                .statusCode(404);
     }
 
 
@@ -132,16 +149,5 @@ public class IntegrationTest {
         Assert.assertEquals("platform.txt", responseItems.get(1).getDocumentName());
         Assert.assertTrue(responseItems.get(1).getRank() == 13L);
     }
-
-    @Test
-    public void notFoundTest() {
-        with()
-                .contentType("application/json")
-                .pathParam(GET_DOCUMENT_PARAM, "not-found")
-                .get(GET_DOCUMENT_URL)
-                .then()
-                .statusCode(404);
-    }
-
 
 }

@@ -14,4 +14,6 @@ public interface Storage {
     public List<DocumentInfo> getDocumentsInfoByWord(String word);
 
     public void addDocumentInfo(String word, DocumentInfo docInfo);
+
+    public void cleanUp();
 }

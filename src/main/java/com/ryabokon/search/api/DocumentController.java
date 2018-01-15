@@ -53,6 +53,13 @@ public class DocumentController {
         return documentService.getDocumentContent(documentName);
     }
 
+    @RequestMapping(value = "/search/documents", method = RequestMethod.DELETE)
+    @ResponseBody
+    @ApiOperation("Clear the search index and document store")
+    public void cleanUp() {
+        documentService.cleanUp();
+    }
+
     @ApiIgnore
     @RequestMapping("/")
     public void home(HttpServletResponse response) throws IOException {
