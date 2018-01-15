@@ -34,7 +34,7 @@ Navigate to [localhost:8080](http://localhost:8080) to open a swagger page
 
 Three rest APIs are available to test the search-engine app
 
-![swagger](swagger.png)
+![swagger](swagger2.png)
 
 ## Tests
 
