@@ -13,7 +13,7 @@ Reverse index document search with simple ranking*
 
 ## Installation and running
 
-You can try the live demo AWS Elastic Beanstalk http://ryabokon-search-engine.us-west-2.elasticbeanstalk.com/
+You can try the live demo on AWS Elastic Beanstalk http://ryabokon-search-engine.us-west-2.elasticbeanstalk.com/
 
 ---
 
