@@ -39,7 +39,7 @@ Three rest APIs are available to test the search-engine app
 Unit and integration tests are available in the test directory.
 Test coverage is **92% Lines**
 
-![coverage](coverage.png)
+![coverage](coverage.png){:height="50%" width="50%"}
 
 ## Spent time
 
