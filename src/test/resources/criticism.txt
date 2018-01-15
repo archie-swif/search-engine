@@ -1,0 +1,4 @@
+Criticism
+
+Criticisms directed at Java include the implementation of generics,[57] speed,[58] the handling of unsigned numbers,[59] the implementation of floating-point arithmetic,[60] and a history of security vulnerabilities in the primary Java VM implementation HotSpot.[61]
+
