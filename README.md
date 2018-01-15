@@ -32,14 +32,14 @@ Navigate to [localhost:8080](http://localhost:8080) to open a swagger page
 
 Three rest APIs are available to test the search-engine app
 
-(swagger)[swagger.png]
+!(swagger)[swagger.png]
 
 ## Tests
 
 Unit and integration tests are available in the test directory.
 Test coverage is **92% Lines**
 
-(coverage)[coverage.png]
+!(coverage)[coverage.png]
 
 ## Spent time
 
