@@ -13,7 +13,7 @@ Reverse index document search with simple ranking*
 
 ## Installation and running
 
-You can try it out on AWS Elastic Beanstalk http://ryabokon-search-engine.us-west-2.elasticbeanstalk.com/
+You can try the live demo AWS Elastic Beanstalk http://ryabokon-search-engine.us-west-2.elasticbeanstalk.com/
 
 ---
 
@@ -31,9 +31,9 @@ Also, search-engine can be launched from Idea IDE or with maven:
 
 ## Usage
 
-Navigate to [localhost:8080](http://localhost:8080) to open a swagger page
+Navigate to http://localhost:8080 to open a swagger page
 
-Three rest APIs are available to test the search-engine app
+Four rest APIs are available to test the search-engine app
 
 ![swagger](swagger2.png)
 
