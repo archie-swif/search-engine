@@ -2,8 +2,7 @@
 
 Reverse index document search with simple ranking*
 
-## Main features:
-
+## Main features
 
 1. Put documents into the search engine by key.
 2. Get document by key.
@@ -19,10 +18,9 @@ And launched from the command-line
 
 ```java -jar search-engine-0.0.1.jar```
 
-
 ---
 
-Also ,search-engine can be launched from Idea IDE or with maven:
+Also, search-engine can be launched from Idea IDE or with maven:
 
 ```mvn spring-boot:run```
 
