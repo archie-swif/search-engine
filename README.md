@@ -44,7 +44,7 @@ Test coverage is **92% Lines**
 ## Spent time
 
 * 3 hours to implement and test a primitive reverse index search
-* 2 hours to refactor and pretify the code for better modularity
+* 2 hours to refactor and prettify the code for better modularity
 * 2 hours to add Spring Boot and implement REST API
 * 3 hours for integration and unit tests
 
